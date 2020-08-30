@@ -5,7 +5,7 @@
 ros::NodeHandle  nh;
 
 // left: motorA, right: motorB
-L298NX2 motors(D10, D9, D8, D3, D4, D5);
+L298NX2 motors(10, 9, 8, 3, 4, 5);
 int linearSpeed;
 int angularSpeed;
 
